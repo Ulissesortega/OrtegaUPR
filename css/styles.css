@@ -39,3 +39,10 @@ body {
 .muzzles{
     padding-left: 100px;
 }
+
+.wbg{
+    
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
