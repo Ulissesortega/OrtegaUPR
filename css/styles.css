@@ -45,3 +45,14 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.tflorem{
+    font-family: Montauk, Regular;
+    text-align: justify;
+    color:#5F002B;
+}
+
+.tfmuzzles{
+    font-family: Fugaz One, Regular;
+    color:#5F002B;
+}
