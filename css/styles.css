@@ -6,6 +6,16 @@ body{
     word-spacing: 2em;
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
 .unavbartext{
     padding-top: 15px;
     padding-right: 60px;
