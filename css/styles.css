@@ -1,0 +1,41 @@
+body{
+    background: url(../assets/bgtexture.jpg);
+}
+
+.unavbar{
+    word-spacing: 2em;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+.unavbartext{
+    padding-top: 15px;
+    padding-right: 60px;
+}
+
+.unavtextcolor{
+    font-family: 'Fugaz One', cursive;
+    color:#5F002B;
+    text-decoration: none;
+}
+
+.uheroimg1{
+    width: 100%;
+    height: 50%;
+    padding-bottom: 35%;
+    background-image: url("../assets/homeHero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.muzzles{
+    padding-left: 100px;
+}
