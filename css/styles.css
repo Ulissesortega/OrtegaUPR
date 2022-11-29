@@ -35,3 +35,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.muzzles{
+    padding-left: 100px;
+}
