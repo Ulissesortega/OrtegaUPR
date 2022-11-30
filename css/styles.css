@@ -63,16 +63,15 @@ body {
 ------------------------------------------------------------------------------------------------------------------------------
 /* This is for Catering Page */
 .uheroimg2{
+    background: url(../assets/catering1.jpg);
     width: 100%;
     height: 50%;
     padding-bottom: 35%;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 15px;
 }
 
 .wbg2{
     background-color: white;
-    
 }
 
