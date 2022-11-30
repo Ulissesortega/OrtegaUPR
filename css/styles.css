@@ -42,8 +42,6 @@ body {
 
 .wbg{
     background-color: white;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .tflorem{
@@ -55,4 +53,18 @@ body {
 .tfmuzzles{
     font-family: Fugaz One, Regular;
     color:#5F002B;
+}
+------------------------------------------------------------------------------------------------------------------------------
+/* This is for Catering Page */
+.uheroimg2{
+    width: 100%;
+    height: 50%;
+    padding-bottom: 35%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wbg2{
+    background-color: white;
+    
 }
