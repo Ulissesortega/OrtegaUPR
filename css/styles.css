@@ -54,6 +54,11 @@ body {
     font-family: Fugaz One, Regular;
     color:#5F002B;
 }
+
+.fpadding{
+    padding-left: 8%;
+    padding-right: 7%;
+}
 ------------------------------------------------------------------------------------------------------------------------------
 /* This is for Catering Page */
 .uheroimg2{
