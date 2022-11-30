@@ -39,3 +39,117 @@ body {
 .muzzles{
     padding-left: 100px;
 }
+
+.picture1{
+   margin-left: 10%; 
+   margin-top: 10%;
+}
+
+.kh1{
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -32%;
+    font-family: 'Fugaz One';
+    color:#5F002B;
+}
+
+.whitebackground1{
+   margin-top: -35.8%; 
+   margin-left: 47%;
+}
+
+.kparagraph{
+    width: 45%;
+    margin-left: 50%;
+    margin-top: 2%;
+    font-size: 13px;
+    font-family: 'Montauk';
+    color:#5F002B;
+}
+
+.whitebackground2{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kh2{
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 4%;
+    font-family: 'Fugaz One';
+    color:#5F002B;
+}
+
+.movecard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.kheading{
+    margin-left: 5%;
+    font-family: 'Fugaz One';
+    color:#5F002B;
+}
+
+.card-text{
+    color:#5F002B;
+    font-size: 13px;
+    font-family: 'Montauk'; 
+}
+
+.kparagraph2{
+    margin-left: 10%;
+    margin-top: 5%;
+    color:#5F002B;
+    font-size: 13px;
+    font-family: 'Montauk'; 
+}
+
+.kmove{
+    margin-top: -2.1%;
+    margin-left: 88%;
+}
+
+.kcompanylogo{
+    margin-top: -4%;
+    margin-left:94%;
+}
+
+.whitebackground3{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kphoto1{
+    border: 10px solid white;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.kphoto2{
+    border: 10px solid white; 
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.kphoto3{
+    border: 10px solid white; 
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.kphoto4{
+    border: 10px solid white; 
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+
+
+
+
+
+
