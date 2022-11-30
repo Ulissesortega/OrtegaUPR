@@ -61,13 +61,13 @@ body {
 }
 .rrow1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     justify-content: center;
     
 }
 .rcards{
-    width: 150%;
+    /* width: 150%; */
     border-radius: 0;
 
 }
@@ -78,6 +78,8 @@ body {
 
 .rfirstrow{
     margin-right: 17.5%;
+    display: flex;
+    flex-direction:row;
 }
 .card-img-top{
     border-radius: 0;
@@ -85,4 +87,37 @@ body {
 
 .ricecream{
     width: 50%;
+}
+
+.rrow2{
+    padding-top: 1%;
+}
+
+.rcardtitle{
+    font-family: 'Fugaz One', 'Regular';
+    color:#5F002B;
+}
+
+.rcardtext{
+    font-family: 'Montauk', 'Regular';
+}
+
+.rctext{
+   
+    border-bottom: 2px solid #5F002B;
+    margin-top: -1%;
+    
+}
+.rparagraph{
+    margin-left: 90%;
+    margin-top: -5%;
+}
+.rfoodname{
+    padding-top: 3%;
+}
+.rbreak{
+padding-bottom: 4%;
+}
+.rbreaks{
+    padding-bottom: 1.5%;
 }
