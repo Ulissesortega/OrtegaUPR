@@ -42,6 +42,7 @@ body {
 
 .wbg{
     background-color: white;
+    height: 95%;
 }
 
 .tflorem{
@@ -67,6 +68,7 @@ body {
     padding-bottom: 35%;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: 15px;
 }
 
 .wbg2{
