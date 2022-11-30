@@ -39,3 +39,50 @@ body {
 .muzzles{
     padding-left: 100px;
 }
+
+.rmenupart{
+    height: 8%;
+    width: 84%;
+    background-color: white;
+    margin-left: 8%;
+}
+.rmenutop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .8%;
+    font-family: 'Fugaz One', 'Regular';
+    color:#5F002B;
+}
+
+.rcardcon{
+    
+
+}
+.rrow1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.rcards{
+    width: 150%;
+    border-radius: 0;
+
+}
+
+.meatstuff{
+    width: 100%;
+}
+
+.rfirstrow{
+    margin-right: 17.5%;
+}
+.card-img-top{
+    border-radius: 0;
+}
+
+.ricecream{
+    width: 50%;
+}
