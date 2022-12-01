@@ -62,17 +62,32 @@ body {
 }
 ------------------------------------------------------------------------------------------------------------------------------
 /* This is for Catering Page */
-.uheroimg2{
-    background: url(../assets/catering1.jpg);
-    width: 100%;
-    height: 50%;
-    padding-bottom: 35%;
-    background-size: contain;
-    background-repeat: no-repeat;
+body, html {
+    height: 100%;
 }
 
-.wbg2{
-    background-color: white;
-    width: 99%;
+/* The hero image */
+.hero-image {
+    background-image: url("../assets/cateringHero.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;  
+  position: relative;
+  width: 68%;
 }
+
+.whiteBG{
+    background-color: white;     
+}
+
+.fpadding{
+    padding-left: 8%;
+    padding-right: 7%;
+}
+
+
 
