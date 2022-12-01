@@ -46,7 +46,7 @@ body {
     padding-left: 100px;
 }
 
-<<<<<<< HEAD
+HEAD
 .picture1{
    margin-left: 10%; 
    margin-top: 10%;
@@ -164,7 +164,7 @@ body {
 
 
 
-=======
+
 .wbg{
     background-color: white;
     height: 95%;
@@ -280,6 +280,10 @@ body, html {
     font-family: Montauk;
     color: #5F002B;
 }
+.rcardtext2{
+    font-family: Montauk;
+    color: #5F002B;
+}
 
 .rctext{
    
@@ -304,4 +308,3 @@ padding-bottom: 4%;
 .rnavalign{
     padding-right: 7%;
 }
->>>>>>> 0125e8c7af3e299b1c61c1f99de72842c8808f21
