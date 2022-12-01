@@ -23,7 +23,7 @@ body {
 }
 
 .unavbartext{
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 60px;
 }
 
@@ -45,6 +45,59 @@ body {
 .muzzles{
     padding-left: 100px;
 }
+
+.wbg{
+    background-color: white;
+    height: 95%;
+}
+
+.tflorem{
+    font-family: Montauk, Regular;
+    text-align: justify;
+    color:#5F002B;
+}
+
+.tfmuzzles{
+    font-family: Fugaz One, Regular;
+    color:#5F002B;
+}
+
+.fpadding{
+    padding-left: 8%;
+    padding-right: 7%;
+}
+------------------------------------------------------------------------------------------------------------------------------
+/* This is for Catering Page */
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    background-image: url("../assets/cateringHero.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;  
+  position: relative;
+  width: 83%;
+}
+
+.whiteBG{
+    background-color: white;     
+}
+
+.fpadding{
+    padding-left: 8%;
+    padding-right: 7%;
+}
+
+
+
+
 
 .rmenupart{
     height: 8%;
