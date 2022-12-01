@@ -1,3 +1,9 @@
+@font-face{
+    font-family: Montauk;
+    src: url(/Fonts/Montauk-Regular.otf);
+}
+
+
 body{
     background: url(../assets/bgtexture.jpg);
 }
@@ -99,7 +105,8 @@ body {
 }
 
 .rcardtext{
-    font-family: 'Montauk', 'Regular';
+    font-family: Montauk;
+    color: #5F002B;
 }
 
 .rctext{
@@ -120,4 +127,8 @@ padding-bottom: 4%;
 }
 .rbreaks{
     padding-bottom: 1.5%;
+}
+
+.rnavalign{
+    padding-right: 7%;
 }
