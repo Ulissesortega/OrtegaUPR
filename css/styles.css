@@ -165,11 +165,9 @@ body{
     padding-left: 1%;
     padding-right: 1%;
 }
-------------------------------------------------------------------------------------------------------------------------------
+
 /* This is for Catering Page */
-body, html {
-    height: 100%;
-}
+
 
 /* The hero image */
 .hero-image {
@@ -218,8 +216,8 @@ body, html {
 
 .rcardcon{
     
-
 }
+
 .rrow1{
     display: flex;
     justify-content: space-around;
