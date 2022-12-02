@@ -46,7 +46,6 @@ body {
     padding-left: 100px;
 }
 
-<<<<<<< HEAD
 .picture1{
    margin-left: 10%; 
    margin-top: 10%;
@@ -155,16 +154,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-=======
 .wbg{
     background-color: white;
     height: 95%;
@@ -206,7 +195,9 @@ body, html {
 }
 
 .whiteBG{
-    background-color: white;     
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 80%;     
 }
 
 .fpadding{
@@ -304,4 +295,11 @@ padding-bottom: 4%;
 .rnavalign{
     padding-right: 7%;
 }
->>>>>>> 0125e8c7af3e299b1c61c1f99de72842c8808f21
+
+
+
+/* Take 2 on catering */
+.tfocs{
+    font-family: Montauk, Regular;
+    font-size: 10px;
+}
