@@ -1,3 +1,9 @@
+@font-face{
+    font-family: Montauk;
+    src: url(/Fonts/Montauk-Regular.otf);
+}
+
+
 body{
     background: url(../assets/bgtexture.jpg);
 }
@@ -17,7 +23,7 @@ body {
 }
 
 .unavbartext{
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 60px;
 }
 
@@ -40,8 +46,9 @@ body {
     padding-left: 100px;
 }
 
+/* <<<<<<< HEAD */
 .picture1{
-   margin-left: 30%; 
+   padding-left: 30%; 
    
 }
 
@@ -143,217 +150,156 @@ body {
     margin-left: -8%;
     margin-top: 1%;
 }
-/* @media screen and (min-width:1555px){
-    .picture1{
-        margin-left: 30%; 
-        
-     }
-     
-     .kh1{
-         margin-left: -10%;
-         font-family: 'Fugaz One';
-         color:#5F002B;
-     }
-     
-     .whitebackground1{
-        margin-left: 80%;
-     }
-     
-     .kparagraph{
-         width: 110%;
-         margin-left:-10%;
-         font-size: 12px;
-         font-family: 'Montauk';
-         color:#5F002B;
-     }
-     
-     .whitebackground2{
-         margin-left: 7%;
-         margin-top: 4%;
-        
-     }
-     
-     .kh2{
-         text-align: center;
-         margin-top: -3%;
-         margin-left: 4%;
-         font-family: 'Fugaz One';
-         color:#5F002B;
-     }
-     
-     .movecard{
-         display: flex;
-         justify-content: space-evenly;
-         margin-top: 5%;
-         padding-left: 7.4%;
-     }
-} */
-
-
-/* @media screen and (min-width: 1440px) {
-    .container{
-        display: flex;
-    }
-    .picture1{
-        width: 150%;
-        margin-left: 30%; 
-        
-     }
-     
-     .kh1{
-        font-size: 200%;
-         margin-left: -10%;
-         font-family: 'Fugaz One';
-         color:#5F002B;
-     }
-     
-     .whitebackground1{
-        width: 214%;
-        margin-left: 80%;
-     }
-     
-     .kparagraph{
-         width: 100%;
-         margin-left:-10%;
-         font-size: 11px;
-         font-family: 'Montauk';
-         color:#5F002B;
-     }
-     
-     .kwhitebackground2{
-        width:95%; 
-       
-        
-     }
-     
-     .kh2{
-         text-align: center;
-         margin-top: -3%;
-         margin-left: 4%;
-         font-family: 'Fugaz One';
-         color:#5F002B;
-         font-size: 30px;
-     }
-     
-     .movecard{
-         display: flex;
-         justify-content: space-evenly;
-         margin-top: 5%;
-         padding-left: 8%;
-     }
-       
-} */
 
 
 
-@media only screen and (max-width: 425px) {
-    .container{
-        display: flex;
-    }
 
-    .picture1{
-        width: 350px;
-        height: 300px;
-        
-    }
 
-    .whitebackground1{
-        width: 350px;
-        height: 1000px;
-        margin-top: 366%;
-        margin-left: -100%;
-    }
 
-    .kh1{
-        
-    }
 
-    .kparagraph{
-        
-    }
 
-    .movecard{
-        display: none;
-        justify-content: space-evenly;
-        margin-top: 5%;
-        padding-left: 8%;
-    }
-    
-    .kheading{
-        display: none;
-        margin-left: 5%;
-        font-family: 'Fugaz One';
-        color:#5F002B;
-    }
-    
-    .card-text{
-        display: none;
-        color:#5F002B;
-        font-size: 13px;
-        font-family: 'Montauk'; 
-    }
 
-    .whitebackground2{
-        display: none;
-        margin-left: 7.8%;
-        margin-top: 4%;
-       
-    }
-    
-    .kh2{
-        display: none;
-        text-align: center;
-        margin-top: -3%;
-        margin-left: 4%;
-        font-family: 'Fugaz One';
-        color:#5F002B;
-    } 
-    
+
+/* 
+
+======= */
+.wbg{
+    background-color: white;
+    height: 95%;
 }
 
-@media  screen and (max-width:400px) {
-    .container{
-        display: flex;
-    }
-
-    .picture1{
-        width: 350px;
-        height: 300px;
-        margin-left: 6%;
-    }
-
-    .whitebackground1{
-        width: 350px;
-        height: 1000px;
-        margin-top: 410%;
-        margin-left: -129%;
-    }
+.tflorem{
+    font-family: Montauk, Regular;
+    text-align: justify;
+    color:#5F002B;
 }
 
-@media  screen and (max-width:325px){
-    .container{
-        display: flex;
-    }
+.tfmuzzles{
+    font-family: Fugaz One, Regular;
+    color:#5F002B;
+}
 
-    .picture1{
-        width: 300px;
-        height: 300px;
-    }
+.fpadding{
+    padding-left: 8%;
+    padding-right: 7%;
+}
+------------------------------------------------------------------------------------------------------------------------------
+/* This is for Catering Page */
+body, html {
+    height: 100%;
+}
 
-    .whitebackground1{
-        width: 300px;
-        height: 1000px;
-        margin-left: -140%;
-        
-    }
+/* The hero image */
+.hero-image {
+    background-image: url("../assets/cateringHero.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;  
+  position: relative;
+  width: 83%;
+}
+
+.whiteBG{
+    background-color: white;     
+}
+
+.fpadding{
+    padding-left: 8%;
+    padding-right: 7%;
 }
 
 
 
 
 
+.rmenupart{
+    height: 8%;
+    width: 84%;
+    background-color: white;
+    margin-left: 8%;
+}
+.rmenutop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .8%;
+    font-family: 'Fugaz One', 'Regular';
+    color:#5F002B;
+}
 
+.rcardcon{
+    
 
+}
+.rrow1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.rcards{
+    /* width: 150%; */
+    border-radius: 0;
 
+}
 
+.meatstuff{
+    width: 100%;
+}
 
+.rfirstrow{
+    margin-right: 17.5%;
+    display: flex;
+    flex-direction:row;
+}
+.card-img-top{
+    border-radius: 0;
+}
+
+.ricecream{
+    width: 50%;
+}
+
+.rrow2{
+    padding-top: 1%;
+}
+
+.rcardtitle{
+    font-family: 'Fugaz One', 'Regular';
+    color:#5F002B;
+}
+
+.rcardtext{
+    font-family: Montauk;
+    color: #5F002B;
+}
+
+.rctext{
+   
+    border-bottom: 2px solid #5F002B;
+    margin-top: -1%;
+    
+}
+.rparagraph{
+    margin-left: 90%;
+    margin-top: -5%;
+}
+.rfoodname{
+    padding-top: 3%;
+}
+.rbreak{
+padding-bottom: 4%;
+}
+.rbreaks{
+    padding-bottom: 1.5%;
+}
+
+.rnavalign{
+    padding-right: 7%;
+}
+/* >>>>>>> 0125e8c7af3e299b1c61c1f99de72842c8808f21
