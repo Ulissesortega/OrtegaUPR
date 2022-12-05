@@ -128,3 +128,17 @@ padding-bottom: 4%;
 .rnavalign{
     padding-right: 7%;
 }
+
+@media screen and (max-width:600px) {
+    .rrow{
+        display: flex;
+        flex-direction: column;
+        width:200%;
+    }
+    .rrow2{
+        display: flex;
+        flex-direction: column;
+        width:200%;
+    }
+    
+}
