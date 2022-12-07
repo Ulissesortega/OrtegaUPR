@@ -145,6 +145,9 @@ padding-bottom: 4%;
     .rcards{
         padding-top: 100px;
     }
+    .rparagraph {
+display: flex;
+}
 
     
 }
