@@ -5,36 +5,28 @@
 }
 
 
-body{
+body {
     background: url(../assets/bgtexture.jpg);
 }
 
-.unavbar{
+.unavbar {
     word-spacing: 2em;
 }
 
-html {
-    overflow: hidden;
-    height: 100%;
-}
 
-body {
-    overflow: auto;
-    height: 100%;
-}
-
-.unavbartext{
+.unavbartext {
     padding-top: 20px;
-    padding-right: 60px;
 }
 
-.unavtextcolor{
-    font-family: 'Fugaz One', cursive;
-    color:#5F002B;
+.unavtextcolor {
+    font-family: Fugaz One, Regular;
+    color: #5F002B;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.uheroimg1{
+.uheroimg1 {
     width: 100%;
     height: 50%;
     padding-bottom: 35%;
@@ -43,7 +35,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.muzzles{
+.muzzles {
     padding-left: 100px;
 }
 
@@ -69,7 +61,7 @@ body {
     margin-left:-10%;
     font-size: 16px;
     font-family: 'Montauk';
-    color:#5F002B;
+    color: #5F002B;
 }
 
 .whitebackground2{
@@ -78,7 +70,7 @@ body {
    
 }
 
-.kh2{
+.kh2 {
     text-align: center;
     margin-top: -3%;
     margin-left: 4%;
@@ -87,17 +79,17 @@ body {
     background-color: white;
 }
 
-.movecard{
+.movecard {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
     padding-left: 7.4%;
 }
 
-.kheading{
+.kheading {
     margin-left: 5%;
     font-family: 'Fugaz One';
-    color:#5F002B;
+    color: #5F002B;
 }
 
 .card-text{
@@ -106,22 +98,22 @@ body {
     font-family: 'Montauk'; 
 }
 
-.kparagraph2{
+.kparagraph2 {
     margin-left: 10%;
     margin-top: 5%;
-    color:#5F002B;
+    color: #5F002B;
     font-size: 13px;
-    font-family: 'Montauk'; 
+    font-family: 'Montauk';
 }
 
-.kmove{
+.kmove {
     margin-top: -2.1%;
     margin-left: 88%;
 }
 
-.kcompanylogo{
+.kcompanylogo {
     margin-top: -4%;
-    margin-left:94%;
+    margin-left: 94%;
 }
 
 .whitebackground3{
@@ -130,7 +122,7 @@ body {
 
 }
 
-.kphoto1{
+.kphoto1 {
     border: 10px solid white;
     margin-left: 20%;
     margin-top: 1%;
