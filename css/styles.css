@@ -1,4 +1,5 @@
-@font-face {
+/* CSS for Home Page */
+@font-face{
     font-family: Montauk;
     src: url(/Fonts/Montauk-Regular.otf);
 }
@@ -38,36 +39,35 @@ body {
     padding-left: 100px;
 }
 
-.picture1 {
-    margin-left: 10%;
-    margin-top: 10%;
+/* <<<<<<< HEAD */
+.picture1{
+   padding-left: 30%; 
+   
 }
 
-.kh1 {
-    text-align: center;
-    margin-left: 30%;
-    margin-top: -32%;
+.kh1{
+    margin-left: -10%;
     font-family: 'Fugaz One';
-    color: #5F002B;
+    color:#5F002B;
+    background-color: white;
 }
 
-.whitebackground1 {
-    margin-top: -35.8%;
-    margin-left: 47%;
+.whitebackground1{
+   margin-left: 80%;
 }
 
-.kparagraph {
-    width: 45%;
-    margin-left: 50%;
-    margin-top: 2%;
-    font-size: 13px;
+.kparagraph{
+    width: 110%;
+    margin-left:-10%;
+    font-size: 16px;
     font-family: 'Montauk';
     color: #5F002B;
 }
 
-.whitebackground2 {
-    margin-left: 10%;
-    margin-top: 10%;
+.whitebackground2{
+    margin-left: 7%;
+    margin-top: 4%;
+   
 }
 
 .kh2 {
@@ -75,15 +75,15 @@ body {
     margin-top: -3%;
     margin-left: 4%;
     font-family: 'Fugaz One';
-    color: #5F002B;
+    color:#5F002B;
+    background-color: white;
 }
 
 .movecard {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    margin-left: 8%;
     margin-top: 5%;
+    padding-left: 7.4%;
 }
 
 .kheading {
@@ -92,10 +92,10 @@ body {
     color: #5F002B;
 }
 
-.card-text {
-    color: #5F002B;
-    font-size: 13px;
-    font-family: 'Montauk';
+.card-text{
+    color:#5F002B;
+    font-size: 14px;
+    font-family: 'Montauk'; 
 }
 
 .kparagraph2 {
@@ -116,34 +116,36 @@ body {
     margin-left: 94%;
 }
 
-.whitebackground3 {
-    margin-left: 10%;
-    margin-top: 10%;
+.whitebackground3{
+    margin-left: 5.34%;
+    margin-top: 1%;
+
 }
 
 .kphoto1 {
     border: 10px solid white;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.kphoto2{
+    border: 10px solid white; 
     margin-left: 10%;
     margin-top: 1%;
 }
 
-.kphoto2 {
-    border: 10px solid white;
-    margin-left: 1%;
+.kphoto3{
+    border: 10px solid white; 
+    margin-left:1%;
     margin-top: 1%;
 }
 
-.kphoto3 {
-    border: 10px solid white;
-    margin-left: 1%;
+.kphoto4{
+    border: 10px solid white; 
+    margin-left: -8%;
     margin-top: 1%;
 }
 
-.kphoto4 {
-    border: 10px solid white;
-    margin-left: 1%;
-    margin-top: 1%;
-}
 
 .wbg {
     background-color: white;
@@ -305,19 +307,222 @@ body {
         width:200%;
         margin-top: -10%;
     }
-    .rrow2{
+    .picture1{
+       padding-left: 30%; 
+       
+    }
+    
+    .kh1{
+        margin-left: -10%;
+        font-family: 'Fugaz One';
+        color:#5F002B;
+    }
+    
+    .whitebackground1{
+       margin-left: 80%;
+    }
+    
+    .kparagraph{
+        width: 110%;
+        margin-left:-10%;
+        font-size: 16px;
+        font-family: 'Montauk';
+        color:#5F002B;
+    }
+    
+    .kwhitebackground2{
+        width: 94%;
+     
+        margin-top: 4%;
+       
+    }
+    
+    .kh2{
+        text-align: center;
+        margin-top: -3%;
+        margin-left: 4%;
+        font-family: 'Fugaz One';
+        color:#5F002B;
+    }
+    
+    .movecard{
         display: flex;
-        flex-direction: column;
-        width:200%;       
+        justify-content: space-evenly;
+        margin-top: 5%;
+        padding-left: 7%;
+        width: 112%;
     }
     
-    .rcards{
-        padding-top: 100px;
+    .kheading{
+        margin-left: 5%;
+        font-family: 'Fugaz One';
+        color:#5F002B;
     }
-
     
-
+    .card-text{
+        color:#5F002B;
+        font-size: 14px;
+        font-family: 'Montauk'; 
+    }
+    
+    .kIM{
+        padding-right: 28%;
+     }
+     
+     .kfooter{
+        padding-right: 28%;
+     }
 }
+
+@media only screen and (max-width: 1440px) {
+        @font-face{
+            font-family: Montauk;
+        }
+
+    .picture1{
+       width: 180%;
+     }
+     
+     .kh1{
+         margin-left: -5%;
+         font-family: 'Fugaz One';
+         color:#5F002B;
+         font-size: 30px;
+     }
+     
+     .whitebackground1{
+        padding-left: 10%;
+        width: 224%;
+     }
+     
+     .kparagraph{
+         width: 100%;
+         margin-left:-5%;
+         font-size: 12px;
+         font-family: 'Montauk';
+         color:#5F002B;
+     }
+     
+     .kwhitebackground2{
+        width: 97%;
+     }
+     
+     .kh2{
+         text-align: center;
+         margin-top: -3%;
+         margin-left: 4%;
+         font-family: 'Fugaz One';
+         color:#5F002B;
+     }
+     
+     .movecard{
+         display: flex;
+         justify-content: space-evenly;
+         margin-top: 5%;
+         padding-left: 7.4%;
+         width: 105%;
+     }
+     
+     .kheading{
+         margin-left: 5%;
+         font-family: 'Fugaz One';
+         color:#5F002B;
+     }
+     
+     .card-text{
+         color:#5F002B;
+         font-size: 14px;
+         font-family: 'Montauk'; 
+     }
+     
+     .kIM{
+        padding-right: 10%;
+     }
+     
+ .kfooter{
+    padding-right: 10%;
+ }
+     
+    
+    
+     
+   
+      
+}
+
+@media screen and (max-width: 1024px) {
+    @font-face{
+        font-family: Montauk;
+    }
+
+.picture1{ 
+  display: none;
+   width: 180%;
+ }
+ 
+ .kh1{
+     margin-left: -80%;
+     font-family: 'Fugaz One';
+     color:#5F002B;
+     font-size: 30px;
+ }
+ 
+ .whitebackground1{
+    margin-left: -70%;
+    width: 350%;
+ }
+ 
+ .kparagraph{
+     width: 100%;
+     margin-left:-5%;
+     font-size: 12px;
+     font-family: 'Montauk';
+     color:#5F002B;
+ }
+ 
+ .kwhitebackground2{
+    width: 97%;
+ }
+ 
+ .kh2{
+     text-align: center;
+     margin-top: -3%;
+     margin-left: 4%;
+     font-family: 'Fugaz One';
+     color:#5F002B;
+ }
+ 
+ .movecard{
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 5%;
+     padding-left: 7.4%;
+     width: 105%;
+ }
+
+
+ 
+ .kheading{
+     margin-left: 5%;
+     font-family: 'Fugaz One';
+     color:#5F002B;
+ }
+ 
+ .card-text{
+     color:#5F002B;
+     font-size: 14px;
+     font-family: 'Montauk'; 
+ }
+ 
+ .kIM{
+    padding-right: 10%;
+ }
+ 
+.kfooter{
+padding-right: 10%;
+}
+}
+
 
 /* Take 2 on catering */
 .tfocs {
