@@ -134,11 +134,17 @@ padding-bottom: 4%;
         display: flex;
         flex-direction: column;
         width:200%;
+        margin-top: -10%;
     }
     .rrow2{
         display: flex;
         flex-direction: column;
-        width:200%;
+        width:200%;       
     }
+    
+    .rcards{
+        padding-top: 100px;
+    }
+
     
 }
