@@ -454,6 +454,9 @@ body {
     @font-face{
         font-family: Montauk;
     }
+    .rparagraph {
+display: flex;
+}
 
 .picture1{ 
   display: none;
