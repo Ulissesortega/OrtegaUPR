@@ -65,10 +65,10 @@ body {
 }
 
 .whitebackground2{
-    margin-left: 7%;
-    margin-top: 4%;
-   
+ padding-left: 7%;
+ width: 102%;
 }
+
 
 .kh2 {
     text-align: center;
@@ -76,7 +76,6 @@ body {
     margin-left: 4%;
     font-family: 'Fugaz One';
     color:#5F002B;
-    background-color: white;
 }
 
 .movecard {
@@ -176,7 +175,6 @@ body {
     
     .kwhitebackground2{
         width: 94%;
-     
         margin-top: 4%;
        
     }
@@ -247,9 +245,7 @@ body {
          color:#5F002B;
      }
      
-     .kwhitebackground2{
-        width: 97%;
-     }
+    
      
      .kh2{
          text-align: center;
