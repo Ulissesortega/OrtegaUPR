@@ -152,10 +152,225 @@ body {
 }
 
 
+@media only screen and (max-width: 1920px){
+    @font-face{
+        font-family: Montauk;
+    }
+    .picture1{
+       padding-left: 30%; 
+       
+    }
+    
+    .kh1{
+        margin-left: -10%;
+        font-family: 'Fugaz One';
+        color:#5F002B;
+    }
+    
+    .whitebackground1{
+       margin-left: 80%;
+    }
+    
+    .kparagraph{
+        width: 110%;
+        margin-left:-10%;
+        font-size: 16px;
+        font-family: 'Montauk';
+        color:#5F002B;
+    }
+    
+    .kwhitebackground2{
+        width: 94%;
+     
+        margin-top: 4%;
+       
+    }
+    
+    .kh2{
+        text-align: center;
+        margin-top: -3%;
+        margin-left: 4%;
+        font-family: 'Fugaz One';
+        color:#5F002B;
+    }
+    
+    .movecard{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+        padding-left: 7%;
+        width: 112%;
+    }
+    
+    .kheading{
+        margin-left: 5%;
+        font-family: 'Fugaz One';
+        color:#5F002B;
+    }
+    
+    .card-text{
+        color:#5F002B;
+        font-size: 14px;
+        font-family: 'Montauk'; 
+    }
+    
+    .kIM{
+        padding-right: 28%;
+     }
+     
+     .kfooter{
+        padding-right: 28%;
+     }
+}
+
+@media only screen and (max-width: 1440px) {
+        @font-face{
+            font-family: Montauk;
+        }
+
+    .picture1{
+       width: 180%;
+     }
+     
+     .kh1{
+         margin-left: -5%;
+         font-family: 'Fugaz One';
+         color:#5F002B;
+         font-size: 30px;
+     }
+     
+     .whitebackground1{
+        padding-left: 10%;
+        width: 224%;
+     }
+     
+     .kparagraph{
+         width: 100%;
+         margin-left:-5%;
+         font-size: 12px;
+         font-family: 'Montauk';
+         color:#5F002B;
+     }
+     
+     .kwhitebackground2{
+        width: 97%;
+     }
+     
+     .kh2{
+         text-align: center;
+         margin-top: -3%;
+         margin-left: 4%;
+         font-family: 'Fugaz One';
+         color:#5F002B;
+     }
+     
+     .movecard{
+         display: flex;
+         justify-content: space-evenly;
+         margin-top: 5%;
+         padding-left: 7.4%;
+         width: 105%;
+     }
+     
+     .kheading{
+         margin-left: 5%;
+         font-family: 'Fugaz One';
+         color:#5F002B;
+     }
+     
+     .card-text{
+         color:#5F002B;
+         font-size: 14px;
+         font-family: 'Montauk'; 
+     }
+     
+     .kIM{
+        padding-right: 10%;
+     }
+     
+ .kfooter{
+    padding-right: 10%;
+ }
+     
+    
+    
+     
+   
+      
+}
+
+@media screen and (max-width: 1024px) {
+    @font-face{
+        font-family: Montauk;
+    }
+
+.picture1{ 
+  display: none;
+   width: 180%;
+ }
+ 
+ .kh1{
+     margin-left: -80%;
+     font-family: 'Fugaz One';
+     color:#5F002B;
+     font-size: 30px;
+ }
+ 
+ .whitebackground1{
+    margin-left: -70%;
+    width: 350%;
+ }
+ 
+ .kparagraph{
+     width: 100%;
+     margin-left:-5%;
+     font-size: 12px;
+     font-family: 'Montauk';
+     color:#5F002B;
+ }
+ 
+ .kwhitebackground2{
+    width: 97%;
+ }
+ 
+ .kh2{
+     text-align: center;
+     margin-top: -3%;
+     margin-left: 4%;
+     font-family: 'Fugaz One';
+     color:#5F002B;
+ }
+ 
+ .movecard{
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 5%;
+     padding-left: 7.4%;
+     width: 105%;
+ }
 
 
-
-
+ 
+ .kheading{
+     margin-left: 5%;
+     font-family: 'Fugaz One';
+     color:#5F002B;
+ }
+ 
+ .card-text{
+     color:#5F002B;
+     font-size: 14px;
+     font-family: 'Montauk'; 
+ }
+ 
+ .kIM{
+    padding-right: 10%;
+ }
+ 
+.kfooter{
+padding-right: 10%;
+}
+}
 
 
 
