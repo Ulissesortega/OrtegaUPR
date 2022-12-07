@@ -1,33 +1,31 @@
-body{
+@font-face {
+    font-family: Montauk;
+    src: url(/Fonts/Montauk-Regular.otf);
+}
+
+
+body {
     background: url(../assets/bgtexture.jpg);
 }
 
-.unavbar{
+.unavbar {
     word-spacing: 2em;
 }
 
-html {
-    overflow: hidden;
-    height: 100%;
+
+.unavbartext {
+    padding-top: 20px;
 }
 
-body {
-    overflow: auto;
-    height: 100%;
-}
-
-.unavbartext{
-    padding-top: 15px;
-    padding-right: 60px;
-}
-
-.unavtextcolor{
-    font-family: 'Fugaz One', cursive;
-    color:#5F002B;
+.unavtextcolor {
+    font-family: Fugaz One, Regular;
+    color: #5F002B;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.uheroimg1{
+.uheroimg1 {
     width: 100%;
     height: 50%;
     padding-bottom: 35%;
@@ -36,6 +34,272 @@ body {
     background-repeat: no-repeat;
 }
 
-.muzzles{
+.muzzles {
     padding-left: 100px;
+}
+
+.picture1 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kh1 {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -32%;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.whitebackground1 {
+    margin-top: -35.8%;
+    margin-left: 47%;
+}
+
+.kparagraph {
+    width: 45%;
+    margin-left: 50%;
+    margin-top: 2%;
+    font-size: 13px;
+    font-family: 'Montauk';
+    color: #5F002B;
+}
+
+.whitebackground2 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kh2 {
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 4%;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.movecard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.kheading {
+    margin-left: 5%;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.card-text {
+    color: #5F002B;
+    font-size: 13px;
+    font-family: 'Montauk';
+}
+
+.kparagraph2 {
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #5F002B;
+    font-size: 13px;
+    font-family: 'Montauk';
+}
+
+.kmove {
+    margin-top: -2.1%;
+    margin-left: 88%;
+}
+
+.kcompanylogo {
+    margin-top: -4%;
+    margin-left: 94%;
+}
+
+.whitebackground3 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kphoto1 {
+    border: 10px solid white;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.kphoto2 {
+    border: 10px solid white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.kphoto3 {
+    border: 10px solid white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.kphoto4 {
+    border: 10px solid white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wbg {
+    background-color: white;
+    height: 95%;
+}
+
+.tflorem {
+    font-family: Montauk, Regular;
+    text-align: justify;
+    color: #5F002B;
+}
+
+.tfmuzzles {
+    font-family: Fugaz One, Regular;
+    color: #5F002B;
+}
+
+.fpadding {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* This is for Catering Page */
+
+
+/* The hero image */
+.hero-image {
+    background-image: url("../assets/cateringHero.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 83%;
+}
+
+.whiteBG {
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 95%;
+
+}
+
+.fpadding {
+    padding-left: 8%;
+    padding-right: 7%;
+}
+
+/* Take 2 on catering */
+.tfocs {
+    font-family: Montauk, Regular;
+    font-size: 10px;
+}
+
+.rmenupart {
+    height: 8%;
+    width: 84%;
+    background-color: white;
+    margin-left: 8%;
+}
+
+.rmenutop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .8%;
+    font-family: 'Fugaz One', 'Regular';
+    color: #5F002B;
+}
+
+
+
+.rrow1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.rcards {
+    /* width: 150%; */
+    border-radius: 0;
+
+}
+
+.meatstuff {
+    width: 100%;
+}
+
+.rfirstrow {
+    margin-right: 17.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.ricecream {
+    width: 50%;
+}
+
+.rrow2 {
+    padding-top: 1%;
+}
+
+.rcardtitle {
+    font-family: 'Fugaz One', 'Regular';
+    color: #5F002B;
+}
+
+.rcardtext {
+    font-family: Montauk;
+    color: #5F002B;
+}
+
+.rcardtext2 {
+    font-family: Montauk;
+    color: #5F002B;
+}
+
+.rctext {
+
+    border-bottom: 2px solid #5F002B;
+    margin-top: -1%;
+
+}
+
+.rparagraph {
+    margin-left: 90%;
+    margin-top: -5%;
+}
+
+.rfoodname {
+    padding-top: 3%;
+}
+
+.rbreak {
+    padding-bottom: 4%;
+}
+
+.rbreaks {
+    padding-bottom: 1.5%;
+}
+
+.rnavalign {
+    padding-right: 7%;
+}
+
+/* Take 2 on catering */
+.tfocs {
+    font-family: Montauk, Regular;
+    font-size: 10px;
 }
