@@ -1,39 +1,31 @@
-@font-face{
+@font-face {
     font-family: Montauk;
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
 
-body{
+body {
     background: url(../assets/bgtexture.jpg);
 }
 
-.unavbar{
+.unavbar {
     word-spacing: 2em;
 }
 
-html {
-    overflow: hidden;
-    height: 100%;
-}
 
-body {
-    overflow: auto;
-    height: 100%;
-}
-
-.unavbartext{
+.unavbartext {
     padding-top: 20px;
-    padding-right: 60px;
 }
 
-.unavtextcolor{
-    font-family: 'Fugaz One', cursive;
-    color:#5F002B;
+.unavtextcolor {
+    font-family: Fugaz One, Regular;
+    color: #5F002B;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.uheroimg1{
+.uheroimg1 {
     width: 100%;
     height: 50%;
     padding-bottom: 35%;
@@ -42,146 +34,293 @@ body {
     background-repeat: no-repeat;
 }
 
-.muzzles{
+.muzzles {
     padding-left: 100px;
 }
 
-.wbg{
+.picture1 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kh1 {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -32%;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.whitebackground1 {
+    margin-top: -35.8%;
+    margin-left: 47%;
+}
+
+.kparagraph {
+    width: 45%;
+    margin-left: 50%;
+    margin-top: 2%;
+    font-size: 13px;
+    font-family: 'Montauk';
+    color: #5F002B;
+}
+
+.whitebackground2 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kh2 {
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 4%;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.movecard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.kheading {
+    margin-left: 5%;
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
+
+.card-text {
+    color: #5F002B;
+    font-size: 13px;
+    font-family: 'Montauk';
+}
+
+.kparagraph2 {
+    margin-left: 10%;
+    margin-top: 5%;
+    color: #5F002B;
+    font-size: 13px;
+    font-family: 'Montauk';
+}
+
+.kmove {
+    margin-top: -2.1%;
+    margin-left: 88%;
+}
+
+.kcompanylogo {
+    margin-top: -4%;
+    margin-left: 94%;
+}
+
+.whitebackground3 {
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.kphoto1 {
+    border: 10px solid white;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.kphoto2 {
+    border: 10px solid white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.kphoto3 {
+    border: 10px solid white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.kphoto4 {
+    border: 10px solid white;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.wbg {
     background-color: white;
     height: 95%;
 }
 
-.tflorem{
+.tflorem {
     font-family: Montauk, Regular;
     text-align: justify;
-    color:#5F002B;
+    color: #5F002B;
 }
 
-.tfmuzzles{
+.tfmuzzles {
     font-family: Fugaz One, Regular;
-    color:#5F002B;
+    color: #5F002B;
 }
 
-.fpadding{
-    padding-left: 8%;
-    padding-right: 7%;
+.fpadding {
+    padding-left: 1%;
+    padding-right: 1%;
 }
-------------------------------------------------------------------------------------------------------------------------------
+
 /* This is for Catering Page */
-body, html {
-    height: 100%;
-}
+
 
 /* The hero image */
 .hero-image {
     background-image: url("../assets/cateringHero.jpg");
 
-  /* Set a specific height */
-  height: 50%;
-  
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;  
-  position: relative;
-  width: 83%;
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 83%;
 }
 
-.whiteBG{
-    background-color: white;     
+.whiteBG {
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 95%;
+
 }
 
-.fpadding{
+.fpadding {
     padding-left: 8%;
     padding-right: 7%;
 }
 
+/* Take 2 on catering */
+.tfocs {
+    font-family: Montauk, Regular;
+    font-size: 10px;
+}
 
-
-
-
-.rmenupart{
+.rmenupart {
     height: 8%;
     width: 84%;
     background-color: white;
     margin-left: 8%;
 }
-.rmenutop{
+
+.rmenutop {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: .8%;
     font-family: 'Fugaz One', 'Regular';
-    color:#5F002B;
-}
-
-.rcardcon{
-    
-
+    color: #5F002B;
 }
 .rrow1{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.rcards{
+
+.rcards {
     /* width: 150%; */
     border-radius: 0;
 
 }
 
-.meatstuff{
+.meatstuff {
     width: 100%;
 }
 
-.rfirstrow{
+.rfirstrow {
     margin-right: 17.5%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 0;
 }
 
-.ricecream{
+.ricecream {
     width: 50%;
 }
 
-.rrow2{
+.rrow2 {
     padding-top: 1%;
 }
 
-.rcardtitle{
+.rcardtitle {
     font-family: 'Fugaz One', 'Regular';
-    color:#5F002B;
+    color: #5F002B;
 }
 
-.rcardtext{
+.rcardtext {
     font-family: Montauk;
     color: #5F002B;
 }
 
-.rctext{
-   
+.rcardtext2 {
+    font-family: Montauk;
+    color: #5F002B;
+}
+
+.rctext {
+
     border-bottom: 2px solid #5F002B;
     margin-top: -1%;
-    
+
 }
-.rparagraph{
+
+.rparagraph {
     margin-left: 90%;
     margin-top: -5%;
 }
-.rfoodname{
+
+.rfoodname {
     padding-top: 3%;
 }
-.rbreak{
-padding-bottom: 4%;
+
+.rbreak {
+    padding-bottom: 4%;
 }
-.rbreaks{
+
+.rbreaks {
     padding-bottom: 1.5%;
 }
 
-.rnavalign{
+.rnavalign {
     padding-right: 7%;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width:600px) {
+    .rrow{
+        display: flex;
+        flex-direction: column;
+        width:200%;
+        margin-top: -10%;
+    }
+    .rrow2{
+        display: flex;
+        flex-direction: column;
+        width:200%;       
+    }
+    
+    .rcards{
+        padding-top: 100px;
+    }
+
+    
+
+}
+
+/* Take 2 on catering */
+.tfocs {
+    font-family: Montauk, Regular;
+    font-size: 10px;
+}
+>>>>>>> 7c02f6dd7a9f8c3553a364c4b7dc6e4d45dbf893
