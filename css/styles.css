@@ -294,6 +294,8 @@ body {
 .rnavalign {
     padding-right: 7%;
 }
+<<<<<<< HEAD
+=======
 
 @media screen and (max-width:600px) {
     .rrow{
@@ -321,3 +323,4 @@ body {
     font-family: Montauk, Regular;
     font-size: 10px;
 }
+>>>>>>> 7c02f6dd7a9f8c3553a364c4b7dc6e4d45dbf893
