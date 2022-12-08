@@ -1,78 +1,115 @@
-<!-- Group Members: Kent Tupas, Reed Goodwin, Ulises Ortega -->
-<!-- Project Name: Puppy Restaurant -->
-<!-- Date: 11.28.22 -->
-<!-- Description: Create an HTML, CSS BootStrap website based on the Figma prototype provided by Kent Martinez which is our Main Class Instructor -->
-
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Internal CSS -->
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./scripts/app.js">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+
   </head>
-  <body>
-    <!-- This is the NAVBAR -->
-  
-      <div class="container-fluid mb-3">
-        <div class="row">
-          <div class="col-3">
-            <a class="muzzles"><img src="./assets/MuzzlesLogo.png" width="65%" alt="Logo Muzzles"></a>
-          </div>
-          <div class="col-9 unavbartext unabtextcolor">
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active unavtextcolor" href="./Pages/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link unavtextcolor" href="./Pages/menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link unavtextcolor" href="./Pages/catering.html">Catering</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link unavtextcolor" href="./Pages/photos.html">Photo</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- This is the End of the Navbar -->
       
-      <!-- This is for the Hero Image -->
-      <div class="container-fluid uheroimg1">
-        <div class="row"></div>
-    </div>
-    <!-- This is the End of the Hero Image -->
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <img src="./assets/homeSingle.jpg" alt="" height="449px" width="674px">
-        </div>
-        <div class="col-6">
-
+  <body>
+    <div class="container-fluid">
+      <!-- NavBar -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-3">
+            <a href="./index.html"> <img src="./assets/MuzzlesLogo.png" alt=""></a>            
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 d-flex justify-content-end">
+            <nav class="navbar navbar-expand-md navbar-expand-lg">
+              <div class="container-fluid">                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link NavBarFont" href="./pages/About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link NavBarFont" href="./pages/Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link NavBarFont" href="./pages/Catering.html">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link NavBarFont" href="./pages/Photos.html">Photo</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- This is for the second image -->
-  
+      
 
-    <!-- This is the End of the second image -->
+      <!-- Hero Image -->
+      <div class="container-fluid px-0">
+        <div class="row">
+          <div class="col-lg-12 px-0">
+            <img src="./assets/homeHero.jpg" alt="Tables of Restaurant" width="100%">
+          </div>
+        </div>
+      </div>
 
+      <!-- Muzzles Sandwiches -->
+      <div class="container mt-5 px-0">
+        <div class="row">
+          <div class="col-lg-5 col-md-4">
+            <img src="./assets/homeSingle.jpg" alt="Coke, Fries, Panini" height="100%" width="100%">
+          </div>
+          <div class="col-lg-7 whiteBG col-md-8  px-0">
+            <h1 class="textmuzzles">Muzzles Sandwiches & Grill</h1>
+            <div class="row">
+              <p class="fontMR20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-lg-12">
+                <img src="./assets/HomeImage.jpg" alt="Panini, Dog eating fish, 2 tiny burguers" height="100%"
+                  width="100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-
-
-
-
-
-
+      <!-- Footer -->
+      <div class="container">
+      <div class="row mt-4 fpadding ">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p class="fontMR20">1357 Mutt Street, Rottweiler CA. 12345 <br>
+            Phone: 123-456-7890
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-end">
+              <img src="./assets/CompanyLogo.png" alt="" height="31px">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12  d-flex justify-content-end">
+              <p class="fontMR20">
+                Copyright © Muzzles Restaurant
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>           
+    </div>    
+  </div>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>

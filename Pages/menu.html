@@ -2,60 +2,70 @@
 <html lang="en">
 
 <head>
+  <!-- Meta Tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <!-- Bootstrap -->
+  <title>Menu</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+  </head>
+  <!-- Internal CSS -->
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="../scripts/app.js">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://befonts.com/montauk-font.html">
-
 </head>
 
 <body>
-  <!-- This is the NAVBAR -->
-
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-3">
-        <a class="muzzles" href="../index.html"><img href="../index.html" src="../assets/MuzzlesLogo.png" width="65%"
-            alt="Company Logo Muzzles " loading="lazy"></a>
-      </div>
-      <div class="col-9 unavbartext unabtextcolor rnavalign">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active unavtextcolor" href="../Pages/about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link unavtextcolor" href="../Pages/menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link unavtextcolor" href="../Pages/catering.html">Catering</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link unavtextcolor" href="../Pages/photos.html">Photo</a>
-          </li>
-        </ul>
+    <!-- NavBar -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-3">
+          <a href="../index.html"> <img src="../assets/MuzzlesLogo.png" alt=""></a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 d-flex justify-content-end">
+          <nav class="navbar navbar-expand-md navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link NavBarFont" href="../pages/About.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link NavBarFont" href="../Pages/menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link NavBarFont" href="../pages/Catering.html">Catering</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link NavBarFont" href="../Pages/photos.html">Photo</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
-  </div>
+    <!-- Our Menu -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center whiteBG textmuzzles">Our Menu</h1>
+        </div>
+      </div>
+    </div>
 
-<!---Menu-->
-  <div class="col">
-    <div class="rmenupart">
-      <h3 class="rmenutop">Our Menu</h3>
-    </div>
-  </div>
+  
   <br>
   <br>
   <!--START OF MENU-->
 
   <!-- <div class="container">
-
   -->
   <div class="container">
     <div class="row rrow">
@@ -64,31 +74,31 @@
         <div class="card rcards">
           <img src="../assets/menubeef.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h4 class="rcardtitle">Sandwiches</h4>
+            <h4 class="rcardtitle textfontc">Sandwiches</h4>
             <p class="rcardtext">All sandwiches come with a side of crispy fries!</p>
             <br>
-            <h5 class="rfoodname rcardtext">Sizzling Steak Sandwich</h5> 
-        <p class="rparagraph rcardtext">15.99</p>
+            <h5 class="rfoodname rcardtext2 ">Sizzling Steak Sandwich</h5> 
+        <p class="rparagraph rcardtext2">15.99</p>
         <p class="card-text rcardtext">Open faced steak sandwich with grilled belle peppers and fried onions.</p>
         <p class="rctext"></p>
 
-        <h5 class="rfoodname rcardtext">Tenderloin Sliders</h5>
-        <p class="rparagraph rcardtext">13.99</p>
+        <h5 class="rfoodname rcardtext2">Tenderloin Sliders</h5>
+        <p class="rparagraph rcardtext2">13.99</p>
         <p class="card-text rcardtext">Three beef tenderloin sliders with horseradish cream and blackberry bbq.</p>
         <p class="rctext"></p>
        
-        <h5 class="rfoodname rcardtext">Classic Chicken Panini</h5>
-        <p class="rparagraph rcardtext">10.99</p>
+        <h5 class="rfoodname rcardtext2">Classic Chicken Panini</h5>
+        <p class="rparagraph rcardtext2">10.99</p>
         <p class="card-text rcardtext">Grilled chicken with Monterey jack, romaine lettuce, tomato, and cilantro.</p>
         <p class="rctext"></p>
 
-        <h5 class="rfoodname rcardtext">Smoked Turkey Club</h5>
-        <p class="rparagraph rcardtext">8.99</p>
+        <h5 class="rfoodname rcardtext2">Smoked Turkey Club</h5>
+        <p class="rparagraph rcardtext2">8.99</p>
         <p class="card-text rcardtext">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
         <p class="rctext"></p>
 
-        <h5 class="rfoodname rcardtext">Tuna Sandwich</h5>
-        <p class="rparagraph rcardtext">6.99</p>
+        <h5 class="rfoodname rcardtext2">Tuna Sandwich</h5>
+        <p class="rparagraph rcardtext2">6.99</p>
         <p class="card-text rcardtext">Tuna salad with sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
         <p class="rctext"></p>
           </div>
@@ -103,27 +113,27 @@
     <div class="card rcards">
       <img src="../assets/menuseafood.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h4 class="rcardtitle">SeaFood</h4>
+        <h4 class="rcardtitle textfontc">SeaFood</h4>
         <p class="rcardtext">All seafood comes with a side of rice pilaf and grilled vegetables</p>
         <br>
 
-        <h5 class="rfoodname rcardtext">Honey Shrimp Skewers</h5> 
-        <p class="rparagraph rcardtext">15.99</p>
+        <h5 class="rfoodname rcardtext2">Honey Shrimp Skewers</h5> 
+        <p class="rparagraph rcardtext2">15.99</p>
         <p class="card-text rcardtext">Ten honey glazed shrimps grilled with sesame seeds and rosemary</p>
         <p class="rctext"></p>
 
-        <h5 class="rfoodname rcardtext">Grilled Salmon</h5>
-        <p class="rparagraph rcardtext">13.99</p>
+        <h5 class="rfoodname rcardtext2">Grilled Salmon</h5>
+        <p class="rparagraph rcardtext2">13.99</p>
         <p class="card-text rcardtext">Salmon grilled in lime butter sauce!</p>
         <p class="rctext"></p>
        
-        <h5 class="rfoodname rcardtext">Grilled Tilapia</h5>
-        <p class="rparagraph rcardtext">10.99</p>
+        <h5 class="rfoodname rcardtext2">Grilled Tilapia</h5>
+        <p class="rparagraph rcardtext2">10.99</p>
         <p class="card-text rcardtext">A whole grilled tilapia with smoked paprika!</p>
         <p class="rctext"></p>
 
-        <h5 class="rfoodname rcardtext">Parmesan Fish Sticks</h5>
-        <p class="rparagraph rcardtext">8.99</p>
+        <h5 class="rfoodname rcardtext2">Parmesan Fish Sticks</h5>
+        <p class="rparagraph rcardtext2">8.99</p>
         <p class="card-text rcardtext">Sliced salmon rolled in breading and served with dill tartar sauce!</p>
         <p class="rctext"></p>
         <p class="rbreak"></p>
@@ -141,31 +151,31 @@
                 <div class="card rcards">
           <img src="../assets/menumeat.jpg" class="card-img-top meatstuff" alt="...">
           <div class="card-body">
-            <h4 class="rcardtitle">On the grill</h4>
+            <h4 class="rcardtitle textfontc">On the grill</h4>
             <p class="rcardtext">Served with corn, cheddar biscuits, and your choice of coleslaw or potato salad.</p>
             <br>
-            <h5 class="rfoodname rcardtext">Baby Back - Full Rack</h5> 
-            <p class="rparagraph rcardtext">15.99</p>
+            <h5 class="rfoodname rcardtext2">Baby Back - Full Rack</h5> 
+            <p class="rparagraph rcardtext2">15.99</p>
             <p class="card-text rcardtext">A full rack of pork babyback ribs glazed with blackberry bbq.</p>
             <p class="rctext"></p>
     
-            <h5 class="rfoodname rcardtext">Baby Back - Half Rack</h5>
-            <p class="rparagraph rcardtext">13.99</p>
+            <h5 class="rfoodname rcardtext2">Baby Back - Half Rack</h5>
+            <p class="rparagraph rcardtext2">13.99</p>
             <p class="card-text rcardtext">A half rack of pork babyback ribs grilled with blackberry bbq</p>
             <p class="rctext"></p>
            
-            <h5 class="rfoodname rcardtext">Boneless Ribeye</h5>
-            <p class="rparagraph rcardtext">10.99</p>
+            <h5 class="rfoodname rcardtext2">Boneless Ribeye</h5>
+            <p class="rparagraph rcardtext2">10.99</p>
             <p class="card-text rcardtext">A three inch thick boneless ribeye grilled in rosemary rub and butter</p>
             <p class="rctext"></p>
     
-            <h5 class="rfoodname rcardtext">Smoked Turkey Club</h5>
-            <p class="rparagraph rcardtext">8.99</p>
+            <h5 class="rfoodname rcardtext2">Smoked Turkey Club</h5>
+            <p class="rparagraph rcardtext2">8.99</p>
             <p class="card-text rcardtext">Smoked deli turkey, maple bacon, cranberry aioli, lettuce and tomatoes.</p>
             <p class="rctext"></p>
 
-            <h5 class="rfoodname rcardtext">Tuna Sandwich</h5>
-            <p class="rparagraph rcardtext">8.99</p>
+            <h5 class="rfoodname rcardtext2">Tuna Sandwich</h5>
+            <p class="rparagraph rcardtext2">8.99</p>
             <p class="card-text rcardtext">Tuna Salad with sprouts, sliced tomatoes and cilantro lime mayo on toast</p>
             <p class="rctext"></p>
             <p class="rbreaks"></p>
@@ -179,21 +189,21 @@
   <div class="card rcards">
     <img src="../assets/menudesserts.jpg" class="card-img-top " alt="...">
     <div class="card-body">
-      <h4 class="rcardtitle">Desserts</h4>
+      <h4 class="rcardtitle textfontc">Desserts</h4>
       <p class="rcardtext">A shot of esspresso can be added to any dessert for an additional $2.</p>
       <br>
-            <h5 class="rfoodname rcardtext">Double Walnut Brownies</h5> 
-            <p class="rparagraph rcardtext">15.99</p>
+            <h5 class="rfoodname rcardtext2">Double Walnut Brownies</h5> 
+            <p class="rparagraph rcardtext2">15.99</p>
             <p class="card-text rcardtext">Two brownies with walnut crust, ice cream and chocolate sauce.</p>
             <p class="rctext"></p>
     
-            <h5 class="rfoodname rcardtext">Cheeze Cake with Chocolate Sauce</h5>
-            <p class="rparagraph rcardtext">13.99</p>
+            <h5 class="rfoodname rcardtext2">Cheeze Cake with Chocolate Sauce</h5>
+            <p class="rparagraph rcardtext2">13.99</p>
             <p class="card-text rcardtext">CHeesecake with ice cream, chocolate shavings and chocolate sauce.</p>
             <p class="rctext"></p>
            
-            <h5 class="rfoodname rcardtext">Triple Chocolate Brownies</h5>
-            <p class="rparagraph rcardtext">10.99</p>
+            <h5 class="rfoodname rcardtext2">Triple Chocolate Brownies</h5>
+            <p class="rparagraph rcardtext2">10.99</p>
             <p class="card-text rcardtext">A tripple chocolate brownie served with vanilla ice cream and walnuts.</p>
             <p class="rctext"></p>
     
@@ -219,7 +229,6 @@
   <!--CArdrow2-->
   <!-- <div class="row rrow1">
       <div class="col-4">
-
         <div class="card rcards">
           <img src="../assets/menumeat.jpg" class="card-img-top meatstuff" alt="...">
           <div class="card-body">
@@ -227,7 +236,6 @@
               content.</p>
           </div>
         </div>
-
         <div class="card rcards">
           <img src="../assets/menudesserts.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -235,40 +243,39 @@
               content.</p>
           </div>
         </div>
-
       </div>
     </div> -->
 
   </div>
-
-
-
-    <!-- This is the foorter -->
+    
+    <!-- Footer -->
     <div class="container">
-    <div class="row mt-4 fpadding">
-      <div class=" MS col-6">
-          <p>1357 Mutt Street, Rottweiler CA. 12345 <br>
-              Phone: 123-456-7890
+      <div class="row mt-4 fpadding ">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p class="fontMR20">1357 Mutt Street, Rottweiler CA. 12345 <br>
+            Phone: 123-456-7890
           </p>
-      </div>
-      <div class="col-6">
+        </div>
+        <div class="col-lg-6 col-md-6">
           <div class="row">
-              <div class="col-12 d-flex justify-content-end">
-                  <img class="IM" src="../assets/CompanyLogo.png" alt="" height="31px">
-              </div>
+            <div class="col-lg-12 d-flex justify-content-end">
+              <img src="../assets/CompanyLogo.png" alt="" height="31px">
+            </div>
           </div>
           <div class="row">
-              <div class="col-12 d-flex justify-content-end">
-                  <p>
-                      Copyright © Muzzles Restaurant
-                  </p>
-              </div>
+            <div class="col-lg-12  d-flex justify-content-end">
+              <p class="fontMR20">
+                Copyright © Muzzles Restaurant
+              </p>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
   </div>
-  </div>
-<!-- This is the end of the footer -->
-
-
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
+
+</html>
