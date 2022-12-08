@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+@font-face {
+  font-family: Montauk-Regular;
+  src: url(../fonts/Montauk-Regular.otf);
+}
+/* for Italic */
+@font-face {
+  font-family: Montauk-Italic;
+  src: url(../fonts/Montauk-Italic.otf);
+}
+/* for Light */
+@font-face {
+  font-family: Montauk-Light;
+  src: url(../fonts/Montauk-Light.otf);
+}
+/* for Bold */
+@font-face {
+  font-family: Montauk-Bold;
+  src: url(../fonts/Montauk-Bold.otf);
+}
+
+body{
+  background-image: url(../assets/bgtexture.jpg);
+}
+
+.NavBarFont{
+  font-family: 'Fugaz One', cursive;
+  font-weight: bold;
+  font-size: 20PX;
+  color: #5F002B;
+}
+
+.whiteBG{
+  background-color: white;
+}
+
+.textmuzzles{
+  font-family: 'Fugaz One', cursive;
+  font-size: 45PX;
+  color: #5F002B;
+  font-weight: bold;
+}
+
+.textfont{
+  font-family: 'Montauk', 'Regular';
+  color: #5F002B;
+}
+
+.imageborder{
+  border: 10px solid white;
+
+}
+
+.textfontc{
+  font-family: 'Fugaz One', 'Regular';
+  font-size: 30px;
+  color: #5F002B;
+}
+
+.fontMR20{
+  font-family: 'Montauk', 'Regular';
+  font-size: 15px;
+  color:#5F002B;
+}
+
+.fontMR15{
+  font-family: 'Montauk', 'Regular';
+  font-size: 12px;
+  color:#5F002B;
+}
+
+@media screen and (max-width:600px) {
+  .rrow{
+      display: flex;
+      flex-direction: column;
+      width:200%;
+      margin-top: -10%;
+  }
+  .rrow2{
+      display: flex;
+      flex-direction: column;
+      width:200%;
+  }
+  .rcards{
+      padding-top: 100px;
+  }
+  .rparagraph {
+display: flex;
+}
+}
+.rcardtitle{
+  font-family: 'Fugaz One', 'Regular';
+  color:#5F002B;
+}
+.rctext{
+  border-bottom: 2px solid #5F002B;
+  margin-top: -1%;
+}
+.card-img-top{
+  border-radius: 0;
+}
+.rmenutop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .8%;
+    font-family: 'Fugaz One', 'Regular';
+    color:#5F002B;
+}
+.rcardtext{
+  font-family: Montauk;
+  color: #5F002B;
+}
+.rcardtext2{
+  font-family: Montauk;
+  color: #5F002B;
+}
+.rcards{
+  /* width: 150%; */
+  border-radius: 0;
+}
+.rparagraph{
+  display: flex;
+  justify-content: end;
+  margin-top: -5%;
+}
+.rcol{
+  padding-bottom: 2%;
+}
+.rbreak{
+  padding-bottom: 1%;
+}
+.rrow{
+  padding-bottom: 2%;
+}
