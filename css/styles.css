@@ -89,7 +89,6 @@ body{
 display: flex;
 }
 }
-1:33
 .rcardtitle{
   font-family: 'Fugaz One', 'Regular';
   color:#5F002B;
@@ -131,4 +130,7 @@ display: flex;
 }
 .rbreak{
   padding-bottom: 1%;
+}
+.rrow{
+  padding-bottom: 2%;
 }
